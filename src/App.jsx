@@ -11,11 +11,13 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen 
-    bg-green-500
-   ">
-      <AppRouter />
+    <div className="bg-all-app">
+    <div className="app-container">
+    
+        <AppRouter />
+     
     </div>
+  </div>
   );
 }
 
